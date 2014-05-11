@@ -26,6 +26,7 @@ function uglifyify(file, opts) {
     var opts = {
       fromString: true
       , compress: true
+      , angular: true
       , mangle: false
     }
 
